@@ -1,4 +1,4 @@
--- select * from mytools.recuperar_dependencias('', 'pessoal_4', 'contrato' );
+-- SELECT mytools.recuperar_dependencias('', 'pessoal_4', 'contrato' );
 
 CREATE OR REPLACE FUNCTION "mytools"."recuperar_dependencias" (TEXT,TEXT,TEXT) RETURNS VOID AS $$
 
