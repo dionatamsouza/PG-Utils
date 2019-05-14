@@ -1,4 +1,4 @@
-    CREATE VIEW "listar_pl" AS
+    CREATE VIEW "mytools"."listar_pl" AS
           
     SELECT DISTINCT
            pg_namespace.nspname AS schema
