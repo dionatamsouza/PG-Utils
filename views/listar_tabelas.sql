@@ -1,4 +1,4 @@
-    CREATE VIEW "listar_tabelas" AS 
+    CREATE VIEW "mytools"."listar_tabelas" AS 
           
     SELECT T.schemaname                                                                               AS schemaname
          , T.tablename                                                                                AS tablename
