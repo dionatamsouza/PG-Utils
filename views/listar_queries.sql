@@ -1,4 +1,4 @@
-     CREATE VIEW "listar_queries" AS
+     CREATE VIEW "mytools"."listar_queries" AS
           
      SELECT pg_stat_activity.datname                                                                                                            AS banco
           , pg_stat_activity.query_start :: TIMESTAMP(0) :: TIME                                                                                AS inicio
