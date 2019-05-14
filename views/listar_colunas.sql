@@ -1,4 +1,4 @@
-    CREATE VIEW "listar_colunas" AS 
+    CREATE VIEW "mytools"."listar_colunas" AS 
 
     SELECT row_number() OVER ( PARTITION BY a.attrelid ORDER BY a.attnum )                                     AS num
          , n.nspname                                                                                           AS schemaname
