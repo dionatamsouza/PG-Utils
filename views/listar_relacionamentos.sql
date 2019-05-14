@@ -11,16 +11,17 @@
          
          , con.conname  AS FK_NAME
           
-      FROM pg_catalog.pg_namespace AS pkn
-         , pg_catalog.pg_class pkc
-         , pg_catalog.pg_attribute AS pka
-         , pg_catalog.pg_namespace AS fkn
-         , pg_catalog.pg_class fkc
-         , pg_catalog.pg_attribute AS fka
+      FROM pg_catalog.pg_namespace  AS pkn
+         , pg_catalog.pg_class      AS pkc
+         , pg_catalog.pg_attribute  AS pka
+         , pg_catalog.pg_namespace  AS fkn
+         , pg_catalog.pg_class      AS fkc
+         , pg_catalog.pg_attribute  AS fka
          , pg_catalog.pg_constraint AS con
          , pg_catalog.generate_series(1, 32) AS vtable ( campo )
-         , pg_catalog.pg_depend AS dep
-         , pg_catalog.pg_class AS pkic
+         , pg_catalog.pg_depend     AS dep
+         , pg_catalog.pg_class      AS pkic
+          
      WHERE pkn.oid        = pkc.relnamespace
        AND pkc.oid        = pka.attrelid 
        AND pka.attnum     = con.confkey[vtable.campo] 
