@@ -1,4 +1,4 @@
-    CREATE VIEW "listar_esquemas" AS
+    CREATE VIEW "mytools"."listar_esquemas" AS
           
     SELECT pg_namespace.nspname AS schemaname
          , pg_catalog.pg_get_userbyid(pg_namespace.nspowner) AS owner
