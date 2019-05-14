@@ -1,4 +1,4 @@
-    CREATE VIEW "listar_relacionamentos_colunas" AS
+    CREATE VIEW "listar_relacionamentos" AS
           
     SELECT DISTINCT
            pkn.nspname  AS PRIMARY_ESQUEMA
