@@ -1,3 +1,10 @@
+/**
+    * List active queries running in the database.
+    
+    * @link http://www.dionatan.com.br
+    * @author Developer: Dionatan Pinto de Souza
+*/
+
      CREATE VIEW "utils"."list_queries" AS
           
      SELECT pg_stat_activity.datname                                                                                                            AS banco
