@@ -1,3 +1,10 @@
+/**
+    * List schemas.
+    
+    * @link http://www.dionatan.com.br
+    * @author Developer: Dionatan Pinto de Souza
+*/
+
     CREATE VIEW "utils"."list_schemas" AS
           
     SELECT pg_namespace.nspname AS schemaname
