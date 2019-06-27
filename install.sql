@@ -1,13 +1,3 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <meta charset="utf-8">
-</head>
-<body>
-<pre>
-
-SOBRE A INSTALAÇÃO:
-
 -- Setar Encoding
 SET client_encoding = 'SQL_ASCII' ;
 
@@ -24,14 +14,3 @@ SET search_path TO "mytools" ;
 
 -- Finalizar instalacao, setando o search path para o valor anotado.
 SET search_path TO "$user",public ; -- usando search path padrão para testes.
-
-
-
-SOBRE A DESINSTALAÇÃO:
-
--- Dropar o Schema contendo as views e procedures da ferramenta.
-DROP SCHEMA "mytools" CASCADE ;
-
-</pre>
-</body>
-</html>
