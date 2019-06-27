@@ -1,3 +1,9 @@
+/**
+    * Retrieves dependencies from a table.
+    
+    * @link http://www.dionatan.com.br
+    * @author Developer: Dionatan Pinto de Souza
+*/
 CREATE OR REPLACE FUNCTION "utils"."retrieve_dependency" (TEXT,TEXT,TEXT) RETURNS VOID AS $$
 
 DECLARE
