@@ -1,4 +1,4 @@
-    CREATE VIEW "mytools"."listar_relacionamentos" AS
+    CREATE VIEW "utils"."list_relationships" AS
           
     SELECT DISTINCT
            pkn.nspname  AS PRIMARY_ESQUEMA
