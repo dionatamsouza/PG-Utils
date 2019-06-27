@@ -1,6 +1,4 @@
--- SELECT mytools.recuperar_dependencias('', 'pessoal_4', 'contrato' );
-
-CREATE OR REPLACE FUNCTION "mytools"."recuperar_dependencias" (TEXT,TEXT,TEXT) RETURNS VOID AS $$
+CREATE OR REPLACE FUNCTION "utils"."retrieve_dependency" (TEXT,TEXT,TEXT) RETURNS VOID AS $$
 
 DECLARE
     quebra       ALIAS FOR $1;
@@ -51,7 +49,7 @@ BEGIN
         
         RAISE NOTICE '% %.%', quebra, leitura.foreign_esquema, leitura.foreign_tabela ;
         
-        PERFORM mytools.recuperar_dependencias( '    ' || quebra , leitura.foreign_esquema, leitura.foreign_tabela );
+        PERFORM utils.recuperar_dependencias( '    ' || quebra , leitura.foreign_esquema, leitura.foreign_tabela );
         
     END LOOP ;
     
