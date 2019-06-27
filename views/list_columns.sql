@@ -1,3 +1,10 @@
+/**
+    * List tables and their columns.
+    
+    * @link http://www.dionatan.com.br
+    * @author Developer: Dionatan Pinto de Souza
+*/
+
     CREATE VIEW "utils"."list_columns" AS 
 
     SELECT row_number() OVER ( PARTITION BY a.attrelid ORDER BY a.attnum )                                     AS num
