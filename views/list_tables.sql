@@ -1,3 +1,10 @@
+/**
+    * List tables.
+    
+    * @link http://www.dionatan.com.br
+    * @author Developer: Dionatan Pinto de Souza
+*/
+
     CREATE VIEW "utils"."list_tables" AS 
           
     SELECT T.schemaname                                                                               AS schemaname
