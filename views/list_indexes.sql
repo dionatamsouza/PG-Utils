@@ -1,4 +1,4 @@
-    CREATE VIEW "mytools"."listar_indices" AS
+    CREATE VIEW "utils"."list_indexes" AS
           
     SELECT schemaname
          , tablename
