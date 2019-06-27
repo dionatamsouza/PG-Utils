@@ -1,16 +1,3 @@
--- Setar Encoding
 SET client_encoding = 'SQL_ASCII' ;
 
--- Cria o Schema
-CREATE SCHEMA "mytools" ;
-
--- Recupera o Search Path Original (anotar para uso posterior)
-SHOW search_path; -- Resultado: search_path | "$user", public
-
--- Setar search_path para criação das views na ferramenta
-SET search_path TO "mytools" ;
-
-/*** NESTE TRECHO, CARREGAR AS VIEWS E PROCEDURES ***/
-
--- Finalizar instalacao, setando o search path para o valor anotado.
-SET search_path TO "$user",public ; -- usando search path padrão para testes.
+CREATE SCHEMA IF NOT EXISTS "utils" ;
