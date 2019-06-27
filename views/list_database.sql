@@ -1,4 +1,4 @@
-    CREATE VIEW "mytools"."listar_bases" AS
+    CREATE VIEW "utils"."list_database" AS
           
     SELECT pg_user.usename                                             AS owner
          , pg_database.datname                                         AS banco
