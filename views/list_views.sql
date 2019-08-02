@@ -17,4 +17,6 @@
       FROM pg_catalog.pg_class
  LEFT JOIN pg_catalog.pg_namespace
         ON pg_namespace.oid = pg_class.relnamespace
-     WHERE pg_class.relkind IN ( 'v', 'm' ) ;
+     WHERE pg_class.relkind IN ( 'v', 'm' )
+       AND pg_namespace.nspname !~ '^pg\_'
+       AND pg_namespace.nspname NOT IN ( 'information_schema', 'utils' ) ;
