@@ -55,7 +55,7 @@ BEGIN
         
         RAISE NOTICE '% %.%', quebra, leitura.foreign_esquema, leitura.foreign_tabela ;
         
-        PERFORM utils.recuperar_dependencias( '    ' || quebra , leitura.foreign_esquema, leitura.foreign_tabela );
+        PERFORM utils.retrieve_dependency( '    ' || quebra , leitura.foreign_esquema, leitura.foreign_tabela );
         
     END LOOP ;
     
