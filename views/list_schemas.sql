@@ -17,5 +17,5 @@
              GROUP BY schemaname
            ) AS contagem
         ON pg_namespace.nspname = contagem.schemaname
-     WHERE pg_namespace.nspname !~ '^pg_'
+     WHERE pg_namespace.nspname !~ '^pg\_'
        AND pg_namespace.nspname != 'information_schema' ;
