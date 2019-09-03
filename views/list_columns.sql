@@ -53,5 +53,5 @@
      WHERE a.attnum > 0
        AND NOT a.attisdropped
           
-       AND n.nspname !~ '^pg_'
-       AND n.nspname != 'information_schema' ;
+       AND n.nspname !~ '^pg\_'
+       AND n.nspname NOT IN ( 'information_schema', 'utils' ) ;
