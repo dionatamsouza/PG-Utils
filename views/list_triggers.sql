@@ -20,4 +20,4 @@
         ON pg_trigger.tgrelid = pg_class.oid
       JOIN pg_catalog.pg_namespace
         ON pg_class.relnamespace = pg_namespace.oid
-     WHERE pg_trigger.tgname !~ '^[A-Z]{2}\_ConstraintTrigger\_[a-z]\_[0-9]{10}$' ;
+     WHERE pg_trigger.tgname !~ '^RI\_ConstraintTrigger\_(a|c)\_[0-9]{10}$' ;
