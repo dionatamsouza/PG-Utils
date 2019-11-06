@@ -5,6 +5,8 @@
     * @author Developer: Dionatan Pinto de Souza
 */
 
+-- pendente colocar schema da function
+
     CREATE VIEW "utils"."list_triggers" AS
 
     SELECT pg_namespace.nspname   AS schemaname
@@ -18,6 +20,4 @@
         ON pg_trigger.tgrelid = pg_class.oid
       JOIN pg_catalog.pg_namespace
         ON pg_class.relnamespace = pg_namespace.oid
-     WHERE pg_trigger.tgname !~ '^[A-Z]*\_ConstraintTrigger\_[a-z]*\_[0-9]*$' ;
-
--- pendente colocar schema da function
+     WHERE pg_trigger.tgname !~ '^[A-Z]{2}\_ConstraintTrigger\_[a-z]\_[0-9]{10}$' ;
