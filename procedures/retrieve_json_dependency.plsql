@@ -16,7 +16,7 @@ BEGIN
     SELECT row_to_json(dados) AS dependencias
       FROM ( SELECT pg_tables.schemaname AS esquema
                   , pg_tables.tablename  AS tabela
-                  , (   SELECT array_agg(row_to_json(dependencias)) -- array_to_json(array_agg(row_to_json(dependencias)))
+                  , (   SELECT array_agg(row_to_json(dependencias))
                           FROM (   SELECT utils.retrieve_dependency( esquema, tabela ) AS dependencia
                                      FROM (   SELECT DISTINCT
                                                      fkn.nspname  AS esquema
