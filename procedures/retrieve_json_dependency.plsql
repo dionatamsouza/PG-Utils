@@ -1,4 +1,9 @@
--- Return JSON 
+/**
+    * Retrieves dependencies from a table in a JSON format.
+    
+    * @link http://www.dionatan.com.br
+    * @author Developer: Dionatan Pinto de Souza
+*/
 CREATE OR REPLACE FUNCTION "utils"."retrieve_json_dependency" (TEXT,TEXT) RETURNS JSON AS $$
 
 DECLARE
