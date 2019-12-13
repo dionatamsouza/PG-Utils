@@ -1,5 +1,5 @@
 /**
-    * Awaits until time to continue.
+    * Awaits until time to proceed.
     
     * @link http://www.dionatan.com.br
     * @author Developer: Dionatan Pinto de Souza
