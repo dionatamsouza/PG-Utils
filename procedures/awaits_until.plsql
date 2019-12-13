@@ -1,4 +1,4 @@
-CREATE OR REPLACE FUNCTION "utils"."aguardar_ate" (TIME) RETURNS VOID AS $$
+CREATE OR REPLACE FUNCTION "utils"."awaits_until" (TIME) RETURNS VOID AS $$
 
 BEGIN
     
