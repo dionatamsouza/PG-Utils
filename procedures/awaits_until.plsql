@@ -1,3 +1,9 @@
+/**
+    * Awaits until time to continue.
+    
+    * @link http://www.dionatan.com.br
+    * @author Developer: Dionatan Pinto de Souza
+*/
 CREATE OR REPLACE FUNCTION "utils"."awaits_until" (TIME) RETURNS VOID AS $$
 
 BEGIN
