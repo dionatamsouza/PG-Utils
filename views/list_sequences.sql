@@ -5,6 +5,8 @@
     * @author Developer: Dionatan Pinto de Souza
 */
 
+    CREATE VIEW "utils"."list_sequences" AS
+          
     SELECT pg_namespace.nspname AS schemaname
          , pg_class.relname     AS sequence_name
       FROM pg_catalog.pg_class
