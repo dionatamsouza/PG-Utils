@@ -1,3 +1,9 @@
+/**
+    * List sequences.
+    
+    * @link http://www.dionatan.com.br
+    * @author Developer: Dionatan Pinto de Souza
+*/
 
     SELECT pg_namespace.nspname AS schemaname
          , pg_class.relname     AS sequence_name
