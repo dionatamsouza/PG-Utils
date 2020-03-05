@@ -5,8 +5,6 @@
     * @author Developer: Dionatan Pinto de Souza
 */
 
-    CREATE VIEW "utils"."list_procedures" AS
-          
     SELECT DISTINCT
            pg_namespace.nspname AS schema
          , pg_proc.proname      AS procedure_name

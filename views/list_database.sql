@@ -5,8 +5,6 @@
     * @author Developer: Dionatan Pinto de Souza
 */
 
-    CREATE VIEW "utils"."list_database" AS
-          
     SELECT pg_user.usename                                             AS owner
          , pg_database.datname                                         AS banco
          , pg_database_size( pg_database.datname )                     AS tamanho_bytes

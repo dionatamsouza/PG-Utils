@@ -5,8 +5,6 @@
     * @author Developer: Dionatan Pinto de Souza
 */
 
-    CREATE VIEW "utils"."list_relationships" AS
-          
     SELECT DISTINCT
            pkn.nspname  AS PRIMARY_ESQUEMA
          , pkc.relname  AS PRIMARY_TABELA

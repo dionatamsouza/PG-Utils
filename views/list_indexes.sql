@@ -5,8 +5,6 @@
     * @author Developer: Dionatan Pinto de Souza
 */
 
-    CREATE VIEW "utils"."list_indexes" AS
-          
     WITH all_clustered_tables_in_database AS (
           
     SELECT pg_namespace.nspname AS schemaname

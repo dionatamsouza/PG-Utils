@@ -5,8 +5,6 @@
     * @author Developer: Dionatan Pinto de Souza
 */
 
-    CREATE VIEW "utils"."list_schemas" AS
-          
     SELECT pg_namespace.nspname AS schemaname
          , pg_catalog.pg_get_userbyid(pg_namespace.nspowner) AS owner
          , coalesce( contagem.tabelas, 0 ) AS tabelas

@@ -5,8 +5,6 @@
     * @author Developer: Dionatan Pinto de Souza
 */
 
-     CREATE VIEW "utils"."list_queries" AS
-          
      SELECT pg_stat_activity.datname                                                                                                            AS banco
           , pg_stat_activity.query_start :: TIMESTAMP(0) :: TIME                                                                                AS inicio
           , replace(replace( age( configuracoes.now, pg_stat_activity.query_start :: TIMESTAMP ) :: VARCHAR(9) , '-', '' ), '.', '' ) :: TIME   AS tempo

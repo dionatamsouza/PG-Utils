@@ -5,8 +5,6 @@
     * @author Developer: Dionatan Pinto de Souza
 */
 
-    CREATE VIEW "utils"."list_columns" AS 
-
     SELECT row_number() OVER ( PARTITION BY a.attrelid ORDER BY a.attnum )                                     AS num
          , n.nspname                                                                                           AS schemaname
          , c.relname                                                                                           AS tablename

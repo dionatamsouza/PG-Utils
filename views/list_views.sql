@@ -5,8 +5,6 @@
     * @author Developer: Dionatan Pinto de Souza
 */
 
-    CREATE VIEW "utils"."list_views" AS 
-
     SELECT pg_namespace.nspname   AS schemaname
          , pg_class.relname       AS viewname
          , CASE pg_class.relkind

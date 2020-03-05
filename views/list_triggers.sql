@@ -5,10 +5,7 @@
     * @author Developer: Dionatan Pinto de Souza
 */
 
--- pendente colocar schema da function
-
-    CREATE VIEW "utils"."list_triggers" AS
-
+        -- ainda está pendente colocar schema da function?
     SELECT pg_namespace.nspname   AS schemaname
          , pg_class.relname       AS tablename
          , pg_trigger.tgname      AS trigger
