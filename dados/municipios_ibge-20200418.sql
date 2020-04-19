@@ -1212,7 +1212,8 @@ INSERT INTO `covid_ibge` (`cod_uf`, `nom_uf`, `sigla_uf`, `cod_mesorregiao`, `no
 ('50', 'Mato Grosso do Sul', 'MS', '03', 'Leste de Mato Grosso do Sul', '008', 'Nova Andradina', '06200', 5006200, 'Nova Andradina', 'Centro-Oeste', 'CO'),
 ('50', 'Mato Grosso do Sul', 'MS', '04', 'Sudoeste de Mato Grosso do Sul', '011', 'Iguatemi', '06259', 5006259, 'Novo Horizonte do Sul', 'Centro-Oeste', 'CO'),
 ('50', 'Mato Grosso do Sul', 'MS', '03', 'Leste de Mato Grosso do Sul', '005', 'Cassilândia', '06275', 5006275, 'Paraíso das Águas', 'Centro-Oeste', 'CO');
-INSERT INTO `covid_ibge` (`cod_uf`, `nom_uf`, `sigla_uf`, `cod_mesorregiao`, `nom_mesorregiao`, `cod_microrregiao`, `nom_microrregiao`, `cod_municipio`, `cod_ibge`, `nom_municipio`, `nom_regiao`, `sigla_regiao`) VALUES
+
+INSERT INTO `ibge` (`cod_uf`, `nom_uf`, `sigla_uf`, `cod_mesorregiao`, `nom_mesorregiao`, `cod_microrregiao`, `nom_microrregiao`, `cod_municipio`, `cod_ibge`, `nom_municipio`, `nom_regiao`, `sigla_regiao`) VALUES
 ('50', 'Mato Grosso do Sul', 'MS', '03', 'Leste de Mato Grosso do Sul', '006', 'Paranaíba', '06309', 5006309, 'Paranaíba', 'Centro-Oeste', 'CO'),
 ('50', 'Mato Grosso do Sul', 'MS', '04', 'Sudoeste de Mato Grosso do Sul', '011', 'Iguatemi', '06358', 5006358, 'Paranhos', 'Centro-Oeste', 'CO'),
 ('50', 'Mato Grosso do Sul', 'MS', '02', 'Centro Norte de Mato Grosso do Sul', '003', 'Alto Taquari', '06408', 5006408, 'Pedro Gomes', 'Centro-Oeste', 'CO'),
@@ -1600,7 +1601,8 @@ INSERT INTO `covid_ibge` (`cod_uf`, `nom_uf`, `sigla_uf`, `cod_mesorregiao`, `no
 ('52', 'Goiás', 'GO', '05', 'Sul Goiano', '018', 'Quirinópolis', '20405', 5220405, 'São Simão', 'Centro-Oeste', 'CO'),
 ('52', 'Goiás', 'GO', '03', 'Centro Goiano', '010', 'Goiânia', '20454', 5220454, 'Senador Canedo', 'Centro-Oeste', 'CO'),
 ('52', 'Goiás', 'GO', '05', 'Sul Goiano', '013', 'Sudoeste de Goiás', '20504', 5220504, 'Serranópolis', 'Centro-Oeste', 'CO');
-INSERT INTO `covid_ibge` (`cod_uf`, `nom_uf`, `sigla_uf`, `cod_mesorregiao`, `nom_mesorregiao`, `cod_microrregiao`, `nom_microrregiao`, `cod_municipio`, `cod_ibge`, `nom_municipio`, `nom_regiao`, `sigla_regiao`) VALUES
+
+INSERT INTO `ibge` (`cod_uf`, `nom_uf`, `sigla_uf`, `cod_mesorregiao`, `nom_mesorregiao`, `cod_microrregiao`, `nom_microrregiao`, `cod_municipio`, `cod_ibge`, `nom_municipio`, `nom_regiao`, `sigla_regiao`) VALUES
 ('52', 'Goiás', 'GO', '05', 'Sul Goiano', '016', 'Pires do Rio', '20603', 5220603, 'Silvânia', 'Centro-Oeste', 'CO'),
 ('52', 'Goiás', 'GO', '04', 'Leste Goiano', '011', 'Vão do Paranã', '20686', 5220686, 'Simolândia', 'Centro-Oeste', 'CO'),
 ('52', 'Goiás', 'GO', '04', 'Leste Goiano', '011', 'Vão do Paranã', '20702', 5220702, 'Sítio d\'Abadia', 'Centro-Oeste', 'CO'),
@@ -2004,7 +2006,8 @@ INSERT INTO `covid_ibge` (`cod_uf`, `nom_uf`, `sigla_uf`, `cod_mesorregiao`, `no
 ('31', 'Minas Gerais', 'MG', '12', 'Zona da Mata', '061', 'Manhuaçu', '12109', 3112109, 'Caparaó', 'Sudeste', 'SE'),
 ('31', 'Minas Gerais', 'MG', '11', 'Campo das Vertentes', '059', 'Barbacena', '12208', 3112208, 'Capela Nova', 'Sudeste', 'SE'),
 ('31', 'Minas Gerais', 'MG', '03', 'Jequitinhonha', '011', 'Capelinha', '12307', 3112307, 'Capelinha', 'Sudeste', 'SE');
-INSERT INTO `covid_ibge` (`cod_uf`, `nom_uf`, `sigla_uf`, `cod_mesorregiao`, `nom_mesorregiao`, `cod_microrregiao`, `nom_microrregiao`, `cod_municipio`, `cod_ibge`, `nom_municipio`, `nom_regiao`, `sigla_regiao`) VALUES
+
+INSERT INTO `ibge` (`cod_uf`, `nom_uf`, `sigla_uf`, `cod_mesorregiao`, `nom_mesorregiao`, `cod_microrregiao`, `nom_microrregiao`, `cod_municipio`, `cod_ibge`, `nom_municipio`, `nom_regiao`, `sigla_regiao`) VALUES
 ('31', 'Minas Gerais', 'MG', '10', 'Sul/Sudoeste de Minas', '047', 'Passos', '12406', 3112406, 'Capetinga', 'Sudeste', 'SE'),
 ('31', 'Minas Gerais', 'MG', '07', 'Metropolitana de Belo Horizonte', '027', 'Sete Lagoas', '12505', 3112505, 'Capim Branco', 'Sudeste', 'SE'),
 ('31', 'Minas Gerais', 'MG', '05', 'Triângulo Mineiro/Alto Paranaíba', '017', 'Ituiutaba', '12604', 3112604, 'Capinópolis', 'Sudeste', 'SE'),
@@ -2393,7 +2396,8 @@ INSERT INTO `covid_ibge` (`cod_uf`, `nom_uf`, `sigla_uf`, `cod_mesorregiao`, `no
 ('31', 'Minas Gerais', 'MG', '08', 'Vale do Rio Doce', '037', 'Governador Valadares', '44904', 3144904, 'Nova Módica', 'Sudeste', 'SE'),
 ('31', 'Minas Gerais', 'MG', '05', 'Triângulo Mineiro/Alto Paranaíba', '023', 'Araxá', '45000', 3145000, 'Nova Ponte', 'Sudeste', 'SE'),
 ('31', 'Minas Gerais', 'MG', '02', 'Norte de Minas', '004', 'Janaúba', '45059', 3145059, 'Nova Porteirinha', 'Sudeste', 'SE');
-INSERT INTO `covid_ibge` (`cod_uf`, `nom_uf`, `sigla_uf`, `cod_mesorregiao`, `nom_mesorregiao`, `cod_microrregiao`, `nom_microrregiao`, `cod_municipio`, `cod_ibge`, `nom_municipio`, `nom_regiao`, `sigla_regiao`) VALUES
+
+INSERT INTO `ibge` (`cod_uf`, `nom_uf`, `sigla_uf`, `cod_mesorregiao`, `nom_mesorregiao`, `cod_microrregiao`, `nom_microrregiao`, `cod_municipio`, `cod_ibge`, `nom_municipio`, `nom_regiao`, `sigla_regiao`) VALUES
 ('31', 'Minas Gerais', 'MG', '10', 'Sul/Sudoeste de Minas', '048', 'São Sebastião do Paraíso', '45109', 3145109, 'Nova Resende', 'Sudeste', 'SE'),
 ('31', 'Minas Gerais', 'MG', '09', 'Oeste de Minas', '043', 'Divinópolis', '45208', 3145208, 'Nova Serrana', 'Sudeste', 'SE'),
 ('31', 'Minas Gerais', 'MG', '07', 'Metropolitana de Belo Horizonte', '031', 'Itabira', '36603', 3136603, 'Nova União', 'Sudeste', 'SE'),
@@ -2771,7 +2775,8 @@ INSERT INTO `covid_ibge` (`cod_uf`, `nom_uf`, `sigla_uf`, `cod_mesorregiao`, `no
 ('32', 'Espírito Santo', 'ES', '04', 'Sul Espírito-santense', '013', 'Itapemirim', '03320', 3203320, 'Marataízes', 'Sudeste', 'SE'),
 ('32', 'Espírito Santo', 'ES', '03', 'Central Espírito-santense', '007', 'Afonso Cláudio', '03346', 3203346, 'Marechal Floriano', 'Sudeste', 'SE'),
 ('32', 'Espírito Santo', 'ES', '01', 'Noroeste Espírito-santense', '003', 'Colatina', '03353', 3203353, 'Marilândia', 'Sudeste', 'SE');
-INSERT INTO `covid_ibge` (`cod_uf`, `nom_uf`, `sigla_uf`, `cod_mesorregiao`, `nom_mesorregiao`, `cod_microrregiao`, `nom_microrregiao`, `cod_municipio`, `cod_ibge`, `nom_municipio`, `nom_regiao`, `sigla_regiao`) VALUES
+
+INSERT INTO `ibge` (`cod_uf`, `nom_uf`, `sigla_uf`, `cod_mesorregiao`, `nom_mesorregiao`, `cod_microrregiao`, `nom_microrregiao`, `cod_municipio`, `cod_ibge`, `nom_municipio`, `nom_regiao`, `sigla_regiao`) VALUES
 ('32', 'Espírito Santo', 'ES', '04', 'Sul Espírito-santense', '012', 'Cachoeiro de Itapemirim', '03403', 3203403, 'Mimoso do Sul', 'Sudeste', 'SE'),
 ('32', 'Espírito Santo', 'ES', '02', 'Litoral Norte Espírito-santense', '004', 'Montanha', '03502', 3203502, 'Montanha', 'Sudeste', 'SE'),
 ('32', 'Espírito Santo', 'ES', '02', 'Litoral Norte Espírito-santense', '004', 'Montanha', '03601', 3203601, 'Mucurici', 'Sudeste', 'SE'),
@@ -3171,7 +3176,8 @@ INSERT INTO `covid_ibge` (`cod_uf`, `nom_uf`, `sigla_uf`, `cod_mesorregiao`, `no
 ('35', 'São Paulo', 'SP', '07', 'Campinas', '030', 'São João da Boa Vista', '23800', 3523800, 'Itobi', 'Sudeste', 'SE'),
 ('35', 'São Paulo', 'SP', '12', 'Macro Metropolitana Paulista', '046', 'Sorocaba', '23909', 3523909, 'Itu', 'Sudeste', 'SE'),
 ('35', 'São Paulo', 'SP', '12', 'Macro Metropolitana Paulista', '047', 'Jundiaí', '24006', 3524006, 'Itupeva', 'Sudeste', 'SE');
-INSERT INTO `covid_ibge` (`cod_uf`, `nom_uf`, `sigla_uf`, `cod_mesorregiao`, `nom_mesorregiao`, `cod_microrregiao`, `nom_microrregiao`, `cod_municipio`, `cod_ibge`, `nom_municipio`, `nom_regiao`, `sigla_regiao`) VALUES
+
+INSERT INTO `ibge` (`cod_uf`, `nom_uf`, `sigla_uf`, `cod_mesorregiao`, `nom_mesorregiao`, `cod_microrregiao`, `nom_microrregiao`, `cod_municipio`, `cod_ibge`, `nom_municipio`, `nom_regiao`, `sigla_regiao`) VALUES
 ('35', 'São Paulo', 'SP', '02', 'Ribeirão Preto', '011', 'Ituverava', '24105', 3524105, 'Ituverava', 'Sudeste', 'SE'),
 ('35', 'São Paulo', 'SP', '02', 'Ribeirão Preto', '010', 'São Joaquim da Barra', '24204', 3524204, 'Jaborandi', 'Sudeste', 'SE'),
 ('35', 'São Paulo', 'SP', '02', 'Ribeirão Preto', '013', 'Jaboticabal', '24303', 3524303, 'Jaboticabal', 'Sudeste', 'SE'),
@@ -3576,7 +3582,8 @@ INSERT INTO `covid_ibge` (`cod_uf`, `nom_uf`, `sigla_uf`, `cod_mesorregiao`, `no
 ('41', 'Paraná', 'PR', '07', 'Sudoeste Paranaense', '026', 'Francisco Beltrão', '02604', 4102604, 'Barracão', 'Sul', 'S'),
 ('41', 'Paraná', 'PR', '07', 'Sudoeste Paranaense', '025', 'Capanema', '02752', 4102752, 'Bela Vista da Caroba', 'Sul', 'S'),
 ('41', 'Paraná', 'PR', '03', 'Norte Central Paranaense', '007', 'Porecatu', '02802', 4102802, 'Bela Vista do Paraíso', 'Sul', 'S');
-INSERT INTO `covid_ibge` (`cod_uf`, `nom_uf`, `sigla_uf`, `cod_mesorregiao`, `nom_mesorregiao`, `cod_microrregiao`, `nom_microrregiao`, `cod_municipio`, `cod_ibge`, `nom_municipio`, `nom_regiao`, `sigla_regiao`) VALUES
+
+INSERT INTO `ibge` (`cod_uf`, `nom_uf`, `sigla_uf`, `cod_mesorregiao`, `nom_mesorregiao`, `cod_microrregiao`, `nom_microrregiao`, `cod_municipio`, `cod_ibge`, `nom_municipio`, `nom_regiao`, `sigla_regiao`) VALUES
 ('41', 'Paraná', 'PR', '09', 'Sudeste Paranaense', '033', 'União da Vitória', '02901', 4102901, 'Bituruna', 'Sul', 'S'),
 ('41', 'Paraná', 'PR', '02', 'Centro Ocidental Paranaense', '004', 'Goioerê', '03008', 4103008, 'Boa Esperança', 'Sul', 'S'),
 ('41', 'Paraná', 'PR', '07', 'Sudoeste Paranaense', '026', 'Francisco Beltrão', '03024', 4103024, 'Boa Esperança do Iguaçu', 'Sul', 'S'),
@@ -3999,7 +4006,8 @@ INSERT INTO `covid_ibge` (`cod_uf`, `nom_uf`, `sigla_uf`, `cod_mesorregiao`, `no
 ('17', 'Tocantins', 'TO', '02', 'Oriental do Tocantins', '007', 'Jalapão', '09005', 1709005, 'Goiatins', 'Norte', 'N'),
 ('17', 'Tocantins', 'TO', '01', 'Ocidental do Tocantins', '003', 'Miracema do Tocantins', '09302', 1709302, 'Guaraí', 'Norte', 'N'),
 ('17', 'Tocantins', 'TO', '01', 'Ocidental do Tocantins', '005', 'Gurupi', '09500', 1709500, 'Gurupi', 'Norte', 'N');
-INSERT INTO `covid_ibge` (`cod_uf`, `nom_uf`, `sigla_uf`, `cod_mesorregiao`, `nom_mesorregiao`, `cod_microrregiao`, `nom_microrregiao`, `cod_municipio`, `cod_ibge`, `nom_municipio`, `nom_regiao`, `sigla_regiao`) VALUES
+
+INSERT INTO `ibge` (`cod_uf`, `nom_uf`, `sigla_uf`, `cod_mesorregiao`, `nom_mesorregiao`, `cod_microrregiao`, `nom_microrregiao`, `cod_municipio`, `cod_ibge`, `nom_municipio`, `nom_regiao`, `sigla_regiao`) VALUES
 ('17', 'Tocantins', 'TO', '02', 'Oriental do Tocantins', '006', 'Porto Nacional', '09807', 1709807, 'Ipueiras', 'Norte', 'N'),
 ('17', 'Tocantins', 'TO', '02', 'Oriental do Tocantins', '007', 'Jalapão', '10508', 1710508, 'Itacajá', 'Norte', 'N'),
 ('17', 'Tocantins', 'TO', '01', 'Ocidental do Tocantins', '001', 'Bico do Papagaio', '10706', 1710706, 'Itaguatins', 'Norte', 'N'),
@@ -4382,7 +4390,8 @@ INSERT INTO `covid_ibge` (`cod_uf`, `nom_uf`, `sigla_uf`, `cod_mesorregiao`, `no
 ('22', 'Piauí', 'PI', '03', 'Sudoeste Piauiense', '009', 'Floriano', '03909', 2203909, 'Floriano', 'Nordeste', 'NE'),
 ('22', 'Piauí', 'PI', '02', 'Centro-Norte Piauiense', '006', 'Valença do Piauí', '04006', 2204006, 'Francinópolis', 'Nordeste', 'NE'),
 ('22', 'Piauí', 'PI', '02', 'Centro-Norte Piauiense', '005', 'Médio Parnaíba Piauiense', '04105', 2204105, 'Francisco Ayres', 'Nordeste', 'NE');
-INSERT INTO `covid_ibge` (`cod_uf`, `nom_uf`, `sigla_uf`, `cod_mesorregiao`, `nom_mesorregiao`, `cod_microrregiao`, `nom_microrregiao`, `cod_municipio`, `cod_ibge`, `nom_municipio`, `nom_regiao`, `sigla_regiao`) VALUES
+
+INSERT INTO `ibge` (`cod_uf`, `nom_uf`, `sigla_uf`, `cod_mesorregiao`, `nom_mesorregiao`, `cod_microrregiao`, `nom_microrregiao`, `cod_municipio`, `cod_ibge`, `nom_municipio`, `nom_regiao`, `sigla_regiao`) VALUES
 ('22', 'Piauí', 'PI', '04', 'Sudeste Piauiense', '015', 'Alto Médio Canindé', '04154', 2204154, 'Francisco Macedo', 'Nordeste', 'NE'),
 ('22', 'Piauí', 'PI', '04', 'Sudeste Piauiense', '014', 'Pio IX', '04204', 2204204, 'Francisco Santos', 'Nordeste', 'NE'),
 ('22', 'Piauí', 'PI', '04', 'Sudeste Piauiense', '015', 'Alto Médio Canindé', '04303', 2204303, 'Fronteiras', 'Nordeste', 'NE'),
@@ -4777,7 +4786,8 @@ INSERT INTO `covid_ibge` (`cod_uf`, `nom_uf`, `sigla_uf`, `cod_mesorregiao`, `no
 ('24', 'Rio Grande do Norte', 'RN', '03', 'Agreste Potiguar', '015', 'Agreste Potiguar', '06304', 2406304, 'Lagoa de Pedras', 'Nordeste', 'NE'),
 ('24', 'Rio Grande do Norte', 'RN', '03', 'Agreste Potiguar', '014', 'Borborema Potiguar', '06403', 2406403, 'Lagoa de Velhos', 'Nordeste', 'NE'),
 ('24', 'Rio Grande do Norte', 'RN', '02', 'Central Potiguar', '010', 'Serra de Santana', '06502', 2406502, 'Lagoa Nova', 'Nordeste', 'NE');
-INSERT INTO `covid_ibge` (`cod_uf`, `nom_uf`, `sigla_uf`, `cod_mesorregiao`, `nom_mesorregiao`, `cod_microrregiao`, `nom_microrregiao`, `cod_municipio`, `cod_ibge`, `nom_municipio`, `nom_regiao`, `sigla_regiao`) VALUES
+
+INSERT INTO `ibge` (`cod_uf`, `nom_uf`, `sigla_uf`, `cod_mesorregiao`, `nom_mesorregiao`, `cod_microrregiao`, `nom_microrregiao`, `cod_municipio`, `cod_ibge`, `nom_municipio`, `nom_regiao`, `sigla_regiao`) VALUES
 ('24', 'Rio Grande do Norte', 'RN', '03', 'Agreste Potiguar', '015', 'Agreste Potiguar', '06601', 2406601, 'Lagoa Salgada', 'Nordeste', 'NE'),
 ('24', 'Rio Grande do Norte', 'RN', '02', 'Central Potiguar', '009', 'Angicos', '06700', 2406700, 'Lajes', 'Nordeste', 'NE'),
 ('24', 'Rio Grande do Norte', 'RN', '03', 'Agreste Potiguar', '014', 'Borborema Potiguar', '06809', 2406809, 'Lajes Pintadas', 'Nordeste', 'NE'),
@@ -5168,7 +5178,8 @@ INSERT INTO `covid_ibge` (`cod_uf`, `nom_uf`, `sigla_uf`, `cod_mesorregiao`, `no
 ('26', 'Pernambuco', 'PE', '04', 'Mata Pernambucana', '013', 'Mata Setentrional Pernambucana', '06200', 2606200, 'Goiana', 'Nordeste', 'NE'),
 ('26', 'Pernambuco', 'PE', '01', 'Sertão Pernambucano', '001', 'Araripina', '06309', 2606309, 'Granito', 'Nordeste', 'NE'),
 ('26', 'Pernambuco', 'PE', '03', 'Agreste Pernambucano', '008', 'Vale do Ipojuca', '06408', 2606408, 'Gravatá', 'Nordeste', 'NE');
-INSERT INTO `covid_ibge` (`cod_uf`, `nom_uf`, `sigla_uf`, `cod_mesorregiao`, `nom_mesorregiao`, `cod_microrregiao`, `nom_microrregiao`, `cod_municipio`, `cod_ibge`, `nom_municipio`, `nom_regiao`, `sigla_regiao`) VALUES
+
+INSERT INTO `ibge` (`cod_uf`, `nom_uf`, `sigla_uf`, `cod_mesorregiao`, `nom_mesorregiao`, `cod_microrregiao`, `nom_microrregiao`, `cod_municipio`, `cod_ibge`, `nom_municipio`, `nom_regiao`, `sigla_regiao`) VALUES
 ('26', 'Pernambuco', 'PE', '03', 'Agreste Pernambucano', '011', 'Garanhuns', '06507', 2606507, 'Iati', 'Nordeste', 'NE'),
 ('26', 'Pernambuco', 'PE', '01', 'Sertão Pernambucano', '004', 'Sertão do Moxotó', '06606', 2606606, 'Ibimirim', 'Nordeste', 'NE'),
 ('26', 'Pernambuco', 'PE', '03', 'Agreste Pernambucano', '012', 'Brejo Pernambucano', '06705', 2606705, 'Ibirajuba', 'Nordeste', 'NE'),
@@ -5562,7 +5573,8 @@ INSERT INTO `covid_ibge` (`cod_uf`, `nom_uf`, `sigla_uf`, `cod_mesorregiao`, `no
 ('29', 'Bahia', 'BA', '03', 'Centro Norte Baiano', '012', 'Feira de Santana', '08200', 2908200, 'Conceição da Feira', 'Nordeste', 'NE'),
 ('29', 'Bahia', 'BA', '05', 'Metropolitana de Salvador', '020', 'Santo Antônio de Jesus', '08309', 2908309, 'Conceição do Almeida', 'Nordeste', 'NE'),
 ('29', 'Bahia', 'BA', '04', 'Nordeste Baiano', '016', 'Serrinha', '08408', 2908408, 'Conceição do Coité', 'Nordeste', 'NE');
-INSERT INTO `covid_ibge` (`cod_uf`, `nom_uf`, `sigla_uf`, `cod_mesorregiao`, `nom_mesorregiao`, `cod_microrregiao`, `nom_microrregiao`, `cod_municipio`, `cod_ibge`, `nom_municipio`, `nom_regiao`, `sigla_regiao`) VALUES
+
+INSERT INTO `ibge` (`cod_uf`, `nom_uf`, `sigla_uf`, `cod_mesorregiao`, `nom_mesorregiao`, `cod_microrregiao`, `nom_microrregiao`, `cod_municipio`, `cod_ibge`, `nom_municipio`, `nom_regiao`, `sigla_regiao`) VALUES
 ('29', 'Bahia', 'BA', '03', 'Centro Norte Baiano', '012', 'Feira de Santana', '08507', 2908507, 'Conceição do Jacuípe', 'Nordeste', 'NE'),
 ('29', 'Bahia', 'BA', '04', 'Nordeste Baiano', '018', 'Entre Rios', '08606', 2908606, 'Conde', 'Nordeste', 'NE'),
 ('29', 'Bahia', 'BA', '06', 'Centro Sul Baiano', '027', 'Brumado', '08705', 2908705, 'Condeúba', 'Nordeste', 'NE'),
