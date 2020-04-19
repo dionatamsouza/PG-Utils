@@ -461,7 +461,8 @@ INSERT INTO `ibge` (`cod_uf`, `nom_uf`, `sigla_uf`, `cod_mesorregiao`, `nom_meso
 ('42', 'Santa Catarina', 'SC', '05', 'Grande Florianópolis', '016', 'Florianópolis', '06009', 4206009, 'Governador Celso Ramos', 'Sul', 'S'),
 ('42', 'Santa Catarina', 'SC', '06', 'Sul Catarinense', '018', 'Tubarão', '06108', 4206108, 'Grão Pará', 'Sul', 'S'),
 ('42', 'Santa Catarina', 'SC', '06', 'Sul Catarinense', '018', 'Tubarão', '06207', 4206207, 'Gravatal', 'Sul', 'S');
-INSERT INTO `covid_ibge` (`cod_uf`, `nom_uf`, `sigla_uf`, `cod_mesorregiao`, `nom_mesorregiao`, `cod_microrregiao`, `nom_microrregiao`, `cod_municipio`, `cod_ibge`, `nom_municipio`, `nom_regiao`, `sigla_regiao`) VALUES
+
+INSERT INTO `ibge` (`cod_uf`, `nom_uf`, `sigla_uf`, `cod_mesorregiao`, `nom_mesorregiao`, `cod_microrregiao`, `nom_microrregiao`, `cod_municipio`, `cod_ibge`, `nom_municipio`, `nom_regiao`, `sigla_regiao`) VALUES
 ('42', 'Santa Catarina', 'SC', '04', 'Vale do Itajaí', '012', 'Blumenau', '06306', 4206306, 'Guabiruba', 'Sul', 'S'),
 ('42', 'Santa Catarina', 'SC', '01', 'Oeste Catarinense', '001', 'São Miguel do Oeste', '06405', 4206405, 'Guaraciaba', 'Sul', 'S'),
 ('42', 'Santa Catarina', 'SC', '02', 'Norte Catarinense', '008', 'Joinville', '06504', 4206504, 'Guaramirim', 'Sul', 'S'),
@@ -851,7 +852,8 @@ INSERT INTO `covid_ibge` (`cod_uf`, `nom_uf`, `sigla_uf`, `cod_mesorregiao`, `no
 ('43', 'Rio Grande do Sul', 'RS', '01', 'Noroeste Rio-grandense', '002', 'Três Passos', '09605', 4309605, 'Horizontina', 'Sul', 'S'),
 ('43', 'Rio Grande do Sul', 'RS', '06', 'Sudoeste Rio-grandense', '031', 'Campanha Meridional', '09654', 4309654, 'Hulha Negra', 'Sul', 'S'),
 ('43', 'Rio Grande do Sul', 'RS', '01', 'Noroeste Rio-grandense', '002', 'Três Passos', '09704', 4309704, 'Humaitá', 'Sul', 'S');
-INSERT INTO `covid_ibge` (`cod_uf`, `nom_uf`, `sigla_uf`, `cod_mesorregiao`, `nom_mesorregiao`, `cod_microrregiao`, `nom_microrregiao`, `cod_municipio`, `cod_ibge`, `nom_municipio`, `nom_regiao`, `sigla_regiao`) VALUES
+
+INSERT INTO `ibge` (`cod_uf`, `nom_uf`, `sigla_uf`, `cod_mesorregiao`, `nom_mesorregiao`, `cod_microrregiao`, `nom_microrregiao`, `cod_municipio`, `cod_ibge`, `nom_municipio`, `nom_regiao`, `sigla_regiao`) VALUES
 ('43', 'Rio Grande do Sul', 'RS', '04', 'Centro Oriental Rio-grandense', '020', 'Santa Cruz do Sul', '09753', 4309753, 'Ibarama', 'Sul', 'S'),
 ('43', 'Rio Grande do Sul', 'RS', '01', 'Noroeste Rio-grandense', '005', 'Sananduva', '09803', 4309803, 'Ibiaçá', 'Sul', 'S'),
 ('43', 'Rio Grande do Sul', 'RS', '01', 'Noroeste Rio-grandense', '010', 'Passo Fundo', '09902', 4309902, 'Ibiraiaras', 'Sul', 'S'),
