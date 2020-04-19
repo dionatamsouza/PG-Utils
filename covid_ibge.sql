@@ -19,16 +19,16 @@ SET time_zone = "+00:00";
 /*!40101 SET NAMES utf8mb4 */;
 
 --
--- Banco de dados: `u998707588_frito`
+-- Banco de dados: `dbsoft`
 --
 
 -- --------------------------------------------------------
 
 --
--- Estrutura para tabela `covid_ibge`
+-- Estrutura para tabela `ibge`
 --
 
-CREATE TABLE `covid_ibge` (
+CREATE TABLE `ibge` (
   `cod_uf` char(2) COLLATE utf8mb4_unicode_ci DEFAULT NULL,
   `nom_uf` char(19) COLLATE utf8mb4_unicode_ci DEFAULT NULL,
   `sigla_uf` char(2) COLLATE utf8mb4_unicode_ci DEFAULT NULL,
@@ -44,10 +44,10 @@ CREATE TABLE `covid_ibge` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
 --
--- Despejando dados para a tabela `covid_ibge`
+-- Despejando dados para a tabela `ibge`
 --
 
-INSERT INTO `covid_ibge` (`cod_uf`, `nom_uf`, `sigla_uf`, `cod_mesorregiao`, `nom_mesorregiao`, `cod_microrregiao`, `nom_microrregiao`, `cod_municipio`, `cod_ibge`, `nom_municipio`, `nom_regiao`, `sigla_regiao`) VALUES
+INSERT INTO `ibge` (`cod_uf`, `nom_uf`, `sigla_uf`, `cod_mesorregiao`, `nom_mesorregiao`, `cod_microrregiao`, `nom_microrregiao`, `cod_municipio`, `cod_ibge`, `nom_municipio`, `nom_regiao`, `sigla_regiao`) VALUES
 ('41', 'Paraná', 'PR', '07', 'Sudoeste Paranaense', '027', 'Pato Branco', '06506', 4106506, 'Coronel Vivida', 'Sul', 'S'),
 ('41', 'Paraná', 'PR', '02', 'Centro Ocidental Paranaense', '005', 'Campo Mourão', '06555', 4106555, 'Corumbataí do Sul', 'Sul', 'S'),
 ('41', 'Paraná', 'PR', '09', 'Sudeste Paranaense', '033', 'União da Vitória', '06803', 4106803, 'Cruz Machado', 'Sul', 'S'),
@@ -5638,9 +5638,9 @@ INSERT INTO `covid_ibge` (`cod_uf`, `nom_uf`, `sigla_uf`, `cod_mesorregiao`, `no
 --
 
 --
--- Índices de tabela `covid_ibge`
+-- Índices de tabela `ibge`
 --
-ALTER TABLE `covid_ibge`
+ALTER TABLE `ibge`
   ADD KEY `cod_ibge` (`cod_ibge`);
 COMMIT;
 
