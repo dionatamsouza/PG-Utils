@@ -29,18 +29,18 @@ SET time_zone = "+00:00";
 --
 
 CREATE TABLE `ibge` (
-  `cod_uf` char(2) COLLATE utf8mb4_unicode_ci DEFAULT NULL,
-  `nom_uf` char(19) COLLATE utf8mb4_unicode_ci DEFAULT NULL,
-  `sigla_uf` char(2) COLLATE utf8mb4_unicode_ci DEFAULT NULL,
-  `cod_mesorregiao` char(2) COLLATE utf8mb4_unicode_ci DEFAULT NULL,
-  `nom_mesorregiao` char(34) COLLATE utf8mb4_unicode_ci DEFAULT NULL,
-  `cod_microrregiao` char(3) COLLATE utf8mb4_unicode_ci DEFAULT NULL,
+  `nom_regiao`       char(12) COLLATE utf8mb4_unicode_ci DEFAULT NULL,
+  `sigla_regiao`     char(2)  COLLATE utf8mb4_unicode_ci DEFAULT NULL,
+  `cod_uf`           char(2)  COLLATE utf8mb4_unicode_ci DEFAULT NULL,
+  `nom_uf`           char(19) COLLATE utf8mb4_unicode_ci DEFAULT NULL,
+  `sigla_uf`         char(2)  COLLATE utf8mb4_unicode_ci DEFAULT NULL,
+  `cod_mesorregiao`  char(2)  COLLATE utf8mb4_unicode_ci DEFAULT NULL,
+  `nom_mesorregiao`  char(34) COLLATE utf8mb4_unicode_ci DEFAULT NULL,
+  `cod_microrregiao` char(3)  COLLATE utf8mb4_unicode_ci DEFAULT NULL,
   `nom_microrregiao` char(36) COLLATE utf8mb4_unicode_ci DEFAULT NULL,
-  `cod_municipio` char(5) COLLATE utf8mb4_unicode_ci DEFAULT NULL,
-  `cod_ibge` int(11) DEFAULT NULL,
-  `nom_municipio` char(32) COLLATE utf8mb4_unicode_ci DEFAULT NULL,
-  `nom_regiao` char(12) COLLATE utf8mb4_unicode_ci DEFAULT NULL,
-  `sigla_regiao` char(2) COLLATE utf8mb4_unicode_ci DEFAULT NULL
+  `cod_municipio`    char(5)  COLLATE utf8mb4_unicode_ci DEFAULT NULL,
+  `nom_municipio`    char(32) COLLATE utf8mb4_unicode_ci DEFAULT NULL,
+  `cod_ibge`         int(11)  DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
 --
