@@ -4328,6 +4328,7 @@ INSERT INTO `ibge` (`cod_uf`, `nom_uf`, `sigla_uf`, `cod_mesorregiao`, `nom_meso
 ('21', 'Maranhão', 'MA', '02', 'Oeste Maranhense', '008', 'Pindaré', '13009', 2113009, 'Vitorino Freire', 'Nordeste', 'NE'),
 ('21', 'Maranhão', 'MA', '02', 'Oeste Maranhense', '008', 'Pindaré', '14007', 2114007, 'Zé Doca', 'Nordeste', 'NE');
 
+INSERT INTO `ibge` (`cod_uf`, `nom_uf`, `sigla_uf`, `cod_mesorregiao`, `nom_mesorregiao`, `cod_microrregiao`, `nom_microrregiao`, `cod_municipio`, `cod_ibge`, `nom_municipio`, `nom_regiao`, `sigla_regiao`) VALUES
 ('22', 'Piauí', 'PI', '04', 'Sudeste Piauiense', '015', 'Alto Médio Canindé', '00053', 2200053, 'Acauã', 'Nordeste', 'NE'),
 ('22', 'Piauí', 'PI', '02', 'Centro-Norte Piauiense', '005', 'Médio Parnaíba Piauiense', '00103', 2200103, 'Agricolândia', 'Nordeste', 'NE'),
 ('22', 'Piauí', 'PI', '02', 'Centro-Norte Piauiense', '005', 'Médio Parnaíba Piauiense', '00202', 2200202, 'Água Branca', 'Nordeste', 'NE'),
