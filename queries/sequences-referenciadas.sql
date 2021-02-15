@@ -56,7 +56,8 @@ ORDER BY sequence_schema, sequence_name;
 
 
 
-
+select * from (
+   
 
 
     SELECT row_number() OVER ( PARTITION BY a.attrelid ORDER BY a.attnum )                                     AS num
@@ -109,4 +110,7 @@ ORDER BY sequence_schema, sequence_name;
        AND NOT a.attisdropped
           
        AND n.nspname !~ '^pg\_'
-       AND n.nspname NOT IN ( 'information_schema', 'utils' ) ;
+       AND n.nspname NOT IN ( 'information_schema', 'utils' )
+    
+    
+) as consulta where serial_sequence is not null
