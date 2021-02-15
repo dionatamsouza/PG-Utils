@@ -64,7 +64,7 @@ ORDER BY sequence_schema, sequence_name;
          , c.relname                                                                                           AS tablename
          , a.attname                                                                                           AS columnname
          
-         , pg_get_serial_sequence('"'||n.nspname||'"."'||c.relname, a.attname) as serial_sequence
+         , pg_get_serial_sequence('"'||n.nspname||'"."'||c.relname||'"', a.attname) as serial_sequence
          
       -- , CASE WHEN pg_index.indisprimary IS NULL THEN false ELSE true END :: BOOLEAN                         AS is_pk
       -- , CASE WHEN ( a.attnotnull OR (t.typtype = 'd' AND t.typnotnull) ) IS TRUE THEN false ELSE true END   AS is_nullable
