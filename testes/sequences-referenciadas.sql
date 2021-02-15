@@ -113,4 +113,27 @@ select * from (
        AND n.nspname NOT IN ( 'information_schema', 'utils' )
     
     
-) as consulta where serial_sequence is not null
+) as consulta where serial_sequence is not null ;
+
+
+
+
+
+
+
+
+
+
+
+
+
+    SELECT sequences.*
+      FROM (   SELECT pg_namespace.nspname AS schemaname
+                    , pg_class.relname     AS sequence_name
+                 FROM pg_catalog.pg_class
+                 JOIN pg_catalog.pg_namespace
+                   ON pg_class.relnamespace = pg_namespace.oid
+                WHERE pg_class.relkind = 'S'
+           ) AS sequences
+  ORDER BY schemaname
+         , sequence_name ;
